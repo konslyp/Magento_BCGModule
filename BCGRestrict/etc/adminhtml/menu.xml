@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="MagePal_BCGRestrict::bcgmanage" title="BCG Manage" module="MagePal_BCGRestrict" sortOrder="51" resource="MagePal_BCGRestrict::bcgmanage"/>        
+		<add id="MagePal_BCGRestrict::post" title="Manage BCG Accounts" module="MagePal_BCGRestrict" sortOrder="10" action="BCGRestrict/Viewlist" resource="MagePal_BCGRestrict::post" parent="MagePal_BCGRestrict::bcgmanage"/>
+
+    </menu>
+</config>
